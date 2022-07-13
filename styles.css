@@ -2,17 +2,20 @@ body {
     display: flex;
     flex-direction: column;
     font-family: roboto, sans-serif;
+    margin: 0;
 }
 
 .header {
     display: flex;
     background-color: black;
     color: white;
-    justify-content: space-around;
+    justify-content: space-between;
+    padding-left: 80px;
+    padding-right: 80px;
 }
 
 .hero {
-    font-size: 48px;
+    font-size: 24px;
     font-weight: 1000;
 }
 
@@ -27,4 +30,47 @@ body {
 i {
     text-decoration: none;
     color: white;
+}
+
+.first-part {
+    background-color: black;
+    color: white;
+    display: flex;
+    padding-left: 80px;
+    padding-right: 80px;
+    justify-content: space-between;
+    align-items: flex-start;
+    min-height: 40vh;
+}
+
+.left-first {
+    border: none;
+    box-sizing: content-box;
+    width: 500px;
+    height: 250px;
+}
+
+.first-part h1 {
+    font-size: 48px;
+    font-weight: 1000;
+}
+
+.first-part p {
+    font-size: 24px;
+}
+
+.sign-button {
+    background-color: #9945ff;
+    border: none;
+    color: white;
+    padding: 5px 20px;
+    text-decoration: none;
+    border-radius: 6px;
+}
+
+.solana {
+    height: auto;
+    width: 450px;
+    margin-left: 20px;
+    align-self: center;
 }
