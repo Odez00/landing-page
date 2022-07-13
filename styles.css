@@ -140,3 +140,54 @@ i {
     font-size: 24px;
     margin-left: 600px;
 }
+
+.fourth-part {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 30vh;
+    background-color: black;
+    color: white;
+}
+
+.fourth-part a {
+    text-decoration: none;
+    color: white;
+    padding: 5px 20px;
+    border-style: solid;
+    border-color: white;
+    border-width: 2px;
+    border-radius: 6px;
+}
+
+.box {
+    display: flex;
+    flex: 0 1 auto;
+    background-color: #14F195;
+    width: 1300px;
+    height: 150px;
+    border-radius: 6px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.register {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.under-register {
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: -20px;
+}
+
+.left-fourth {
+    margin-left: 100px;
+    padding: 0;
+}
+
+.button {
+    margin-right: 100px;
+}
