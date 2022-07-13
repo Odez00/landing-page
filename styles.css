@@ -191,3 +191,10 @@ i {
 .button {
     margin-right: 100px;
 }
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #14F195;
+}
